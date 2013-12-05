@@ -1,0 +1,138 @@
+/*Style for entire body*/
+
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+body {
+	max-width:980px;
+	margin:auto;
+	font-family:'Lato', sans-serif;
+}
+	body p {
+		font-size:12px;
+	}
+	#container {
+		max-width:980px;
+	}
+
+	img {
+		max-width:100%;
+	}
+	.readmore {
+		text-align:right;
+	}
+	nav>ul>li {
+				display:inline;
+			}
+	h4 {
+		color:#CCC;
+		font-weight:bold;
+		font-size:12px;
+	}
+/*Header area style*/
+		h1,h2 {
+			display:inline-block;
+			position:relative;
+			bottom:0px;
+		}
+		h1 {
+			color:#D00;
+			font-weight:normal;
+			font-size:40px;
+			text-decoration:none;
+		}
+		#topnav {
+			text-align:center;
+		}
+			#topnav>ul>li>a {
+				color:white;
+				padding:10px;
+				font-size:12px;
+				background:black;
+				border:1px solid white;
+				text-decoration:none;
+			}
+		
+/*Style for articles*/
+		#mainbody {
+			float:left;
+			max-width:67%;
+		}
+			article {
+				border-bottom:1px solid #DDD;
+				padding-top:20px;
+				padding-bottom:20px;
+				margin-bottom:20px;
+			}	
+				article h3 {
+					color:#DDD;
+					font-weight:normal;
+					font-size:30px;
+				}
+				article h2 a {
+					color:black;
+					text-decoration:none;
+					font-weight:normal;
+					font-size:20px;
+				}
+				.postbody:first-letter {
+					font-size:50px;
+					float:left;
+					color:#DDD;
+					font-weight:normal;
+					margin-top:-8px;
+					padding-right:5px;
+				}
+	
+/*Style for sidebar*/
+	#sidebar {
+		float:left;
+		max-width:33%;
+		margin-top:120px;
+		padding-left:20px;
+	}
+		#sidebar li,a {
+			color:#D00;
+			text-decoration:none;
+			font-size:12px;
+		}
+		#aboutus {
+			border-bottom:1px solid #DDD;
+		}
+		#popularposts {
+			border-top:1px solid #DDD;
+		}
+			li:before {
+				color:green;
+			}
+		#ad {
+			background:#DDD;
+			padding:50px;
+			margin-top:20px;
+			margin-bottom:20px;
+		}
+/*Footer*/
+
+	footer {
+		clear:both;
+	}
+		#bottomnav a {
+			text-decoration:none;
+			color:#D00;
+			font-size:15px;
+		}
+		footer>p {
+			font-size:12px;
+			color:#DDD;
+		}
