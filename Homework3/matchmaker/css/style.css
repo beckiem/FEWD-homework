@@ -1,0 +1,169 @@
+/* 
+Project Name: Startup Matchmaker site
+Client: Startup Matchmaker
+Author: Beckie Moses
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP                   
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right; 
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left; 
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES                   
+/*******************************************/
+body {
+     max-width:980px;
+}
+     #container {
+
+     }
+          /*Begin Header Area*/
+          header {
+               background-color:black;
+               border-bottom:5px solid yellow;
+          }
+               header h1 {
+                    color:yellow;
+                    font-family:;
+               }
+               /*Begin Top Nav*/
+               header nav ul {
+                    margin-left:110px;
+               }
+                    header nav ul li {
+                         color:white;
+                         font-family;
+                         display:inline-block;
+                         padding:8px;
+                    }
+                         .largeNavItems {
+                              font-weight:bold;
+                         }
+               /*End Top Nav*/
+          /*End Header Area*/
+
+          /*Begin Brains Subtitle*/
+          #brains {
+               background-color:#DDD;
+               padding-top:15px;
+               padding-bottom:15px;
+               text-align:center;
+               font-size:20px;
+               font-weight:bold;
+               font-style:italic;
+          }
+               .strike {
+                    text-decoration:line-through;
+                    color:#666666;
+               }
+               .underline {
+                    border-bottom:3px solid yellow;
+               }
+          /*End Brains Subtitle*/
+
+          /*Begin Meet Match Section*/
+          #coworking {
+               background-image:url(../images/coworking.jpg);
+               background-repeat:no-repeat;
+               float:right;
+               overflow:hidden;
+          }
+               #match {
+                    max-width:33%;
+                    float:right;
+                    margin-right:20px;
+                    padding:30px;
+                    line-height:1.5em;
+                    background:rgba(255,255,255,0.8);
+                    margin-top:20px;
+                    margin-bottom:20px;
+               }
+                    #match>button {
+                         background-color:yellow;
+                         padding:10px 30px 10px 30px;
+                         text-align:center;
+                         border-radius:7px;
+                         font-weight:bold;
+                    }
+          /*End Meet Match Section*/
+
+          /*Begin Create+Find Section*/
+          #createFind {
+               display:inline-block;
+               margin-top:10px;
+          }
+               #createFind div {
+                    float:left;
+                    max-width:33%;
+                    padding-right:20px;
+                    padding-left:12px;
+               }
+                    #developer {
+                         border-left:1px solid #DDD;
+                         border-right:1px solid #DDD;
+                    }
+               #createFind button {
+                    font-weight:bold;
+                    padding:10px 30px 10px 30px;
+                    background-color:#DDD;
+                    border-radius:7px;
+                    text-align:center;
+               }
+          /*End Create+Find Section*/
+     /*Begin Footer*/
+     footer {
+          background-color:black;
+          color:white;
+          padding-top:7px;
+          padding-bottom:7px;
+          padding-left:10px;
+          margin-top:20px;
+     }
+
+
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+/* Center the container */
+
+
+/******************************************
+/* ADDITIONAL STYLES                   
+/*******************************************/
+
+
